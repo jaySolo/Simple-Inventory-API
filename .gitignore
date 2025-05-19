@@ -57,6 +57,9 @@ Thumbs.db
 */node_modules
 */wwwroot/node_modules
 
+#Web API settings files
+src/*.web/appsettings.*.json
+
 ### vscode user settings ###
 .vscode/*
 !.vscode/settings.json
@@ -64,9 +67,6 @@ Thumbs.db
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
-*/appsettings.*.json
 
 # Custom files that are named .old as they are not apart of the codebase
 *.old
-src/jsolo.simpleinventory.core/obj/project.assets.json
-src/jsolo.simpleinventory.core/obj/project.nuget.cache
