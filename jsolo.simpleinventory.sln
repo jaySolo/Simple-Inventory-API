@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jsolo.simpleinventory.sys",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jsolo.simpleinventory.web", "src\jsolo.simpleinventory.web\jsolo.simpleinventory.web.csproj", "{59EF0DB7-E679-4B68-8B4F-249F06101116}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jsolo.simpleinventory.impl", "src\jsolo.simpleinventory.impl\jsolo.simpleinventory.impl.csproj", "{D0AEE731-76DA-45CA-979C-5FC71817F191}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,11 +42,16 @@ Global
 		{59EF0DB7-E679-4B68-8B4F-249F06101116}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59EF0DB7-E679-4B68-8B4F-249F06101116}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59EF0DB7-E679-4B68-8B4F-249F06101116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0AEE731-76DA-45CA-979C-5FC71817F191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0AEE731-76DA-45CA-979C-5FC71817F191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0AEE731-76DA-45CA-979C-5FC71817F191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0AEE731-76DA-45CA-979C-5FC71817F191}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{710ED150-5959-410A-B00B-D009E65C6D11} = {05AA4F9C-D34B-4B5B-8755-03DEFBD74293}
 		{DE5FBDFE-B643-4B51-B831-130DBEE9978D} = {401153D4-F831-469E-A51E-1DEA54CBCF7D}
 		{BFB7C930-CA0A-475A-A4BD-8E86DE2AF2F1} = {05AA4F9C-D34B-4B5B-8755-03DEFBD74293}
 		{59EF0DB7-E679-4B68-8B4F-249F06101116} = {05AA4F9C-D34B-4B5B-8755-03DEFBD74293}
+		{D0AEE731-76DA-45CA-979C-5FC71817F191} = {05AA4F9C-D34B-4B5B-8755-03DEFBD74293}
 	EndGlobalSection
 EndGlobal

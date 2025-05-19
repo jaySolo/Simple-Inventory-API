@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\jsolo.simpleinventory.core\jsolo.simpleinventory.core.csproj" />
+    <ProjectReference Include="..\jsolo.simpleinventory.sys\jsolo.simpleinventory.sys.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+  </ItemGroup>
+    <ItemGroup>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.3.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.3.0" />
+    </ItemGroup>
+
+</Project>
