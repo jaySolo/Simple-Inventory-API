@@ -1,0 +1,6 @@
+@jsolo.simpleinventory.web_HostAddress = http://localhost:5083
+
+GET {{jsolo.simpleinventory.web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
