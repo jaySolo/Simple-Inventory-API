@@ -4,7 +4,7 @@ using System.Linq;
 
 
 
-namespace jsolo.simpleinventory.core
+namespace jsolo.simpleinventory.core.common
 {
 
     ///<summary>Interface for an entity without an ID.</summary>
@@ -87,7 +87,7 @@ namespace jsolo.simpleinventory.core
         /// <param name="modifiedOn">
         /// The new timestamp the <see cref="Entity"/> was last updated/modified.
         /// </param>
-        public virtual Entity SetLastModifierAsAt(string modifierId, DateTime modifiedOn)
+        public virtual Entity SetLastModifierAsAt(string modifierId, DateTime? modifiedOn)
         {
             this.LastModifierId = modifierId;
             this.LastModifiedOn = modifiedOn;

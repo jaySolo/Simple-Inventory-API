@@ -1,4 +1,4 @@
-namespace jsolo.simpleinventory.core
+namespace jsolo.simpleinventory.core.common
 {
     /// <summary>Interface for an aggregate root.</summary>
     public interface IAggregateRoot

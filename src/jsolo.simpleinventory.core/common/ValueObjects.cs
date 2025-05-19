@@ -5,7 +5,7 @@ using System.Linq;
 
 
 
-namespace jsolo.simpleinventory.core
+namespace jsolo.simpleinventory.core.common
 {
     /// <summary>
     /// A generic, immutable object used to store one or values. The base class for all value objects.
