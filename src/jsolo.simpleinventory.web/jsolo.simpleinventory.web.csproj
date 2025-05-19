@@ -4,11 +4,26 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Product>SimpleInventory by Jamal J. A. Solomon</Product>
+    <Version>0.1.0.0</Version>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <Authors>Jamal J. A. Solomon</Authors>
+    <Company></Company>
+    <Copyright>2025</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.15" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\jsolo.simpleinventory.sys\jsolo.simpleinventory.sys.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
 
 </Project>
