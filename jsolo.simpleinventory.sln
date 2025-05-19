@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{05AA4F9C-D34B-4B5B-8755-03DEFBD74293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jsolo.simpleinventory.core", "src\jsolo.simpleinventory.core\jsolo.simpleinventory.core.csproj", "{710ED150-5959-410A-B00B-D009E65C6D11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{401153D4-F831-469E-A51E-1DEA54CBCF7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jsolo.simpleinventory.tests", "tests\jsolo.simpleinventory.tests\jsolo.simpleinventory.tests.csproj", "{DE5FBDFE-B643-4B51-B831-130DBEE9978D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jsolo.simpleinventory.sys", "src\jsolo.simpleinventory.sys\jsolo.simpleinventory.sys.csproj", "{BFB7C930-CA0A-475A-A4BD-8E86DE2AF2F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jsolo.simpleinventory.web", "src\jsolo.simpleinventory.web\jsolo.simpleinventory.web.csproj", "{59EF0DB7-E679-4B68-8B4F-249F06101116}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{710ED150-5959-410A-B00B-D009E65C6D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710ED150-5959-410A-B00B-D009E65C6D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710ED150-5959-410A-B00B-D009E65C6D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710ED150-5959-410A-B00B-D009E65C6D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE5FBDFE-B643-4B51-B831-130DBEE9978D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE5FBDFE-B643-4B51-B831-130DBEE9978D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE5FBDFE-B643-4B51-B831-130DBEE9978D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE5FBDFE-B643-4B51-B831-130DBEE9978D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB7C930-CA0A-475A-A4BD-8E86DE2AF2F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB7C930-CA0A-475A-A4BD-8E86DE2AF2F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB7C930-CA0A-475A-A4BD-8E86DE2AF2F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB7C930-CA0A-475A-A4BD-8E86DE2AF2F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59EF0DB7-E679-4B68-8B4F-249F06101116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EF0DB7-E679-4B68-8B4F-249F06101116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59EF0DB7-E679-4B68-8B4F-249F06101116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59EF0DB7-E679-4B68-8B4F-249F06101116}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{710ED150-5959-410A-B00B-D009E65C6D11} = {05AA4F9C-D34B-4B5B-8755-03DEFBD74293}
+		{DE5FBDFE-B643-4B51-B831-130DBEE9978D} = {401153D4-F831-469E-A51E-1DEA54CBCF7D}
+		{BFB7C930-CA0A-475A-A4BD-8E86DE2AF2F1} = {05AA4F9C-D34B-4B5B-8755-03DEFBD74293}
+		{59EF0DB7-E679-4B68-8B4F-249F06101116} = {05AA4F9C-D34B-4B5B-8755-03DEFBD74293}
+	EndGlobalSection
+EndGlobal
