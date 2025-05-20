@@ -64,7 +64,7 @@ namespace jsolo.simpleinventory.core.objects
         #region  implementatiions and overrides
         protected sealed override IEnumerable<object> GetEqualityComponents() =>
         [
-            this.Code
+            this.Symbol
         ];
         #endregion
     }

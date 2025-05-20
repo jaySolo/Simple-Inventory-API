@@ -1,9 +1,9 @@
 namespace jsolo.simpleinventory.core.enums
 {
-    public enum IntenventoryTransactionType
+    public enum InventoryTransactionType : short
     {
-        Sale = 'S',
+        Sale = (short)'S',
 
-        Purchase = 'P'
+        Purchase = (short)'P'
     }
 }

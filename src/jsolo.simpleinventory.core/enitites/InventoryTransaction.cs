@@ -17,7 +17,7 @@ public class InventoryTransaction : Entity<Guid>
     /// <summary>
     /// 
     /// </summary>
-    public IntenventoryTransactionType Type { get; protected set; }
+    public InventoryTransactionType Type { get; protected set; }
 
     /// <summary>
     /// 
@@ -53,7 +53,7 @@ public class InventoryTransaction : Entity<Guid>
     public InventoryTransaction(
         Guid id,
         DateTime date,
-        IntenventoryTransactionType transactionType,
+        InventoryTransactionType transactionType,
         Inventory inventory,
         double amount,
         DateTime createdOn,
@@ -96,7 +96,7 @@ public class InventoryTransaction : Entity<Guid>
     /// </summary>
     /// <param name="transactionType"></param>
     /// <returns></returns>
-    public InventoryTransaction SetTransactionType(IntenventoryTransactionType transactionType)
+    public InventoryTransaction SetTransactionType(InventoryTransactionType transactionType)
     {
         this.Type = transactionType;
 
