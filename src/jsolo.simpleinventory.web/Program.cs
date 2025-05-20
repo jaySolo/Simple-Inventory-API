@@ -1,8 +1,13 @@
 using System.Diagnostics;
 using System.Reflection;
+using System.Text;
 
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
+using jsolo.simpleinventory.impl;
+using jsolo.simpleinventory.sys;
 using jsolo.simpleinventory.web.Configurations;
 using jsolo.simpleinventory.web;
 
@@ -54,11 +59,11 @@ builder.Services.Configure<AppSettings>(appSettingsSection);
 
 // builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
 
-// builder.Services.AddSystem().AddInfrastructure(builder.Configuration);
+builder.Services.AddSystem();//.AddInfrastructure(builder.Configuration);
 
-// // configure jwt authentication
-// var appSettings = appSettingsSection.Get<AppSettings>();
-// var key = Encoding.ASCII.GetBytes(appSettings.Secret);
+// configure jwt authentication
+var appSettings = appSettingsSection.Get<AppSettings>();
+var key = Encoding.ASCII.GetBytes(appSettings.Secret);
 // builder.Services.AddAuthentication(x =>
 // {
 //     x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -130,11 +135,6 @@ app.UseCors(opts => opts.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 app.UseAuthentication();
 app.UseAuthorization();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
 #region Routes Definitions
 
 app.MapGet("/system/about", async context =>
@@ -179,6 +179,7 @@ bool should_print_to_console = Environment.UserInteractive && !Console.IsInputRe
 
 
 #region database migration
+//TODO: Add database migration handling
 #endregion
 
 
