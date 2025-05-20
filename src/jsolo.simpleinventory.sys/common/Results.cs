@@ -167,6 +167,13 @@ namespace jsolo.simpleinventory.sys.common
         );
 
 
+        public static DataOperationResult<T> InvalidData => new DataOperationResult<T> (
+            succeeded: false,
+            isModelValid: false,
+            data: null,
+            exists: false
+        );
+
 
         public new static DataOperationResult<T> SomeChangesNotSaved => new DataOperationResult<T>(
             succeeded: false,

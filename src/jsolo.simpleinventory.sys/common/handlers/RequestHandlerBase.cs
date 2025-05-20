@@ -1,6 +1,3 @@
-using System.Threading;
-using System.Threading.Tasks;
-
 using MediatR;
 
 using jsolo.simpleinventory.sys.common.interfaces;
@@ -28,9 +25,9 @@ namespace jsolo.simpleinventory.sys.common.handlers
         }
 
 
-        public virtual Task<TDataType> Handle(TRequest request, CancellationToken cancellationToken)
+        public virtual async Task<TDataType> Handle(TRequest request, CancellationToken cancellationToken)
         {
-            throw new System.NotImplementedException("You should override this method!");
+            throw new NotImplementedException("You should override this method!");
         }
     }
 }
